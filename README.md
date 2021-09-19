@@ -1,7 +1,9 @@
 # History
 a 3D model of land-holding political entitities swept through time
 
-link to file on google drive: https://drive.google.com/folderview?id=1_ThFSkKVJ2Tni6o9YU-jqpU5GeQ-0R5z
+link to the .blend file on google drive: https://drive.google.com/folderview?id=1_ThFSkKVJ2Tni6o9YU-jqpU5GeQ-0R5z
+
+WARNING! the latest version of this file is about 500MB in size and requires a pretty beefy computer to even load up correctly in blender.
 
 render of entire world history:
 
