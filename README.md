@@ -5,11 +5,10 @@ link to the .blend file on google drive: https://drive.google.com/folderview?id=
 
 WARNING! the latest version of this file is about 500MB in size and requires a pretty beefy computer to even load up correctly in blender.
 
-render of entire world history:
+renders of the full 3D model with solid materials:
+![all_history_squished_behind](https://user-images.githubusercontent.com/46803624/136486024-e9b0081a-2ae6-4448-be61-3f61b26a01ae.png)
 
-![all_history_fullscreen](https://user-images.githubusercontent.com/46803624/133884140-7b1efbf2-4604-42b8-a69b-29e934176505.png)
-
-![image](https://user-images.githubusercontent.com/46803624/128796326-5cd93f20-e96e-42f4-a9ae-81faf1b1a5aa.png)
+![all_history_squished_under](https://user-images.githubusercontent.com/46803624/136486031-abd53d0a-efc2-4cf3-9215-468052c4b56a.png)
 
 history in southeast asia:
 ![image](https://user-images.githubusercontent.com/46803624/128796682-b06d06dc-fc8b-4070-b171-fad6416c69c0.png)
