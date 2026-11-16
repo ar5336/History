@@ -1,0 +1,289 @@
+{
+  "title": "Historical boundaries of world countries and cultural regions",
+  "author": "André Ourednik and historical-basemaps contributors",
+  "repository": "https://github.com/aourednik/historical-basemaps",
+  "commit": "4b5039e50d8d2464b065bd76ad6086cd4597108d",
+  "license": "GPL-3.0",
+  "crs": "EPSG:4326",
+  "transformation": "Mapshaper topology-aware planar Douglas–Peucker simplification, interval 0.12 degrees (detail) / 0.5 degrees (overview), keep-shapes; coordinates rounded to 0.001 degrees. Names, authority and border precision retained.",
+  "temporalModel": "Right-continuous snapshot hold: each dated map is extruded until the next available map. These intervals are NOT independently verified dates of territorial change. No data are extrapolated after the last snapshot.",
+  "caveats": "Curated, work-in-progress global/continental-scale maps, not an authoritative historical GIS. Ancient cultural areas may overlap; blank areas are unknown, not uninhabited. Same-name coloring is not proof of political continuity.",
+  "data": {
+    "file": "boundaries.json.gz",
+    "bytes": 3260360,
+    "uncompressedBytes": 9851284,
+    "sha256": "b4e57acc9cb2e2618258a0c1da34ee080f697958f58b34f7bcd6f0b160ac0f5d"
+  },
+  "overview": {
+    "file": "boundaries-overview.json.gz",
+    "bytes": 1662590,
+    "sha256": "32c45aec05b6c69258b32585e0917eacc3bdbfd2ea0e3cad5712ba4a2bd68400",
+    "simplificationDegrees": 0.5
+  },
+  "files": [
+    {
+      "year": -500,
+      "path": "geojson/world_bc500.geojson",
+      "sha256": "f72bc06ca45a9f680f20ef6007aaccd13a929cd1b632bd0fb41f161cb51ba3f6",
+      "features": 188
+    },
+    {
+      "year": -400,
+      "path": "geojson/world_bc400.geojson",
+      "sha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b",
+      "features": 188
+    },
+    {
+      "year": -323,
+      "path": "geojson/world_bc323.geojson",
+      "sha256": "3e90c33ce668d9559b52b501a8a8d5607e4cc86c4131dac30ae9aa4d6e9a7616",
+      "features": 146
+    },
+    {
+      "year": -300,
+      "path": "geojson/world_bc300.geojson",
+      "sha256": "2183b95488761080d15bf01ce6a07dfed0c07e2ed2b9effd6783af7931019302",
+      "features": 155
+    },
+    {
+      "year": -200,
+      "path": "geojson/world_bc200.geojson",
+      "sha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80",
+      "features": 177
+    },
+    {
+      "year": -100,
+      "path": "geojson/world_bc100.geojson",
+      "sha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874",
+      "features": 187
+    },
+    {
+      "year": -1,
+      "path": "geojson/world_bc1.geojson",
+      "sha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb",
+      "features": 291
+    },
+    {
+      "year": 100,
+      "path": "geojson/world_100.geojson",
+      "sha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "features": 323
+    },
+    {
+      "year": 200,
+      "path": "geojson/world_200.geojson",
+      "sha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7",
+      "features": 279
+    },
+    {
+      "year": 300,
+      "path": "geojson/world_300.geojson",
+      "sha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+      "features": 314
+    },
+    {
+      "year": 400,
+      "path": "geojson/world_400.geojson",
+      "sha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "features": 293
+    },
+    {
+      "year": 500,
+      "path": "geojson/world_500.geojson",
+      "sha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "features": 200
+    },
+    {
+      "year": 600,
+      "path": "geojson/world_600.geojson",
+      "sha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a",
+      "features": 196
+    },
+    {
+      "year": 700,
+      "path": "geojson/world_700.geojson",
+      "sha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38",
+      "features": 250
+    },
+    {
+      "year": 800,
+      "path": "geojson/world_800.geojson",
+      "sha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c",
+      "features": 223
+    },
+    {
+      "year": 900,
+      "path": "geojson/world_900.geojson",
+      "sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+      "features": 241
+    },
+    {
+      "year": 1000,
+      "path": "geojson/world_1000.geojson",
+      "sha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29",
+      "features": 244
+    },
+    {
+      "year": 1100,
+      "path": "geojson/world_1100.geojson",
+      "sha256": "8b038ee5ec8f032d01a67293e7cf08b7bd3ed58e00defc06af9144e67e708a86",
+      "features": 233
+    },
+    {
+      "year": 1200,
+      "path": "geojson/world_1200.geojson",
+      "sha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+      "features": 265
+    },
+    {
+      "year": 1279,
+      "path": "geojson/world_1279.geojson",
+      "sha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+      "features": 232
+    },
+    {
+      "year": 1300,
+      "path": "geojson/world_1300.geojson",
+      "sha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+      "features": 222
+    },
+    {
+      "year": 1400,
+      "path": "geojson/world_1400.geojson",
+      "sha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+      "features": 217
+    },
+    {
+      "year": 1492,
+      "path": "geojson/world_1492.geojson",
+      "sha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+      "features": 1885
+    },
+    {
+      "year": 1500,
+      "path": "geojson/world_1500.geojson",
+      "sha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+      "features": 264
+    },
+    {
+      "year": 1530,
+      "path": "geojson/world_1530.geojson",
+      "sha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+      "features": 488
+    },
+    {
+      "year": 1600,
+      "path": "geojson/world_1600.geojson",
+      "sha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+      "features": 859
+    },
+    {
+      "year": 1650,
+      "path": "geojson/world_1650.geojson",
+      "sha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+      "features": 775
+    },
+    {
+      "year": 1700,
+      "path": "geojson/world_1700.geojson",
+      "sha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+      "features": 779
+    },
+    {
+      "year": 1715,
+      "path": "geojson/world_1715.geojson",
+      "sha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+      "features": 758
+    },
+    {
+      "year": 1783,
+      "path": "geojson/world_1783.geojson",
+      "sha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+      "features": 639
+    },
+    {
+      "year": 1800,
+      "path": "geojson/world_1800.geojson",
+      "sha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+      "features": 627
+    },
+    {
+      "year": 1815,
+      "path": "geojson/world_1815.geojson",
+      "sha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+      "features": 436
+    },
+    {
+      "year": 1878,
+      "path": "geojson/world_1878.geojson",
+      "sha256": "26ff4b0094a4d5952b153afc3f03e3a1e79dcd577c7818c26f7317ff34a34758",
+      "features": 239
+    },
+    {
+      "year": 1880,
+      "path": "geojson/world_1880.geojson",
+      "sha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+      "features": 236
+    },
+    {
+      "year": 1900,
+      "path": "geojson/world_1900.geojson",
+      "sha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+      "features": 270
+    },
+    {
+      "year": 1914,
+      "path": "geojson/world_1914.geojson",
+      "sha256": "5adf01da9a7c25c97d89236a90abe7c79ebe04f9dfe01f0cb975775172ad0caf",
+      "features": 177
+    },
+    {
+      "year": 1920,
+      "path": "geojson/world_1920.geojson",
+      "sha256": "0ba12dcd8ef5c4477cb4fc76769faf6155c67da4b6fc1ad3176a0b0c98ec4ae9",
+      "features": 207
+    },
+    {
+      "year": 1930,
+      "path": "geojson/world_1930.geojson",
+      "sha256": "4eb4c982ad6ebf0f98cc055d2f1403785c3b6fad79b20d992ba3b44b2e045563",
+      "features": 205
+    },
+    {
+      "year": 1938,
+      "path": "geojson/world_1938.geojson",
+      "sha256": "f2565926fed1b197227b7fe126934a43ed75b8fce007e38be72a7d21a415d813",
+      "features": 253
+    },
+    {
+      "year": 1945,
+      "path": "geojson/world_1945.geojson",
+      "sha256": "3005839db7bcc5256d511b3abb01f1140c0cce245189bc5c28e7d557a47bc775",
+      "features": 227
+    },
+    {
+      "year": 1960,
+      "path": "geojson/world_1960.geojson",
+      "sha256": "6067386755f8fc120a4fca44f198952a18da89cd062aa8013d5a0d08cbad8988",
+      "features": 197
+    },
+    {
+      "year": 1994,
+      "path": "geojson/world_1994.geojson",
+      "sha256": "5369249d6b9d37d1cb799a87eb7f48783587f6c3b9e6d24de35ff58a4935c216",
+      "features": 240
+    },
+    {
+      "year": 2000,
+      "path": "geojson/world_2000.geojson",
+      "sha256": "7de99c532c410c5175abba2d540ed3a21f526f85abb9db408eafef88b0b7fcb3",
+      "features": 240
+    },
+    {
+      "year": 2010,
+      "path": "geojson/world_2010.geojson",
+      "sha256": "d18dcbe41df5e68ec174e5f3887578142bf70fba72f56e204c9de5a8571ae0f4",
+      "features": 240
+    }
+  ]
+}
